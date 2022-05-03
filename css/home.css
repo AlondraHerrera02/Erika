@@ -1,0 +1,30 @@
+header {
+    background-color: black;
+    height: 5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 1.5rem;
+}
+header a {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+header nav {
+    width: 30rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img {
+    width: 3.5rem;
+}
