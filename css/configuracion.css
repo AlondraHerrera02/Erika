@@ -9,3 +9,8 @@ html {
     font-size: 10px;
     font-family: 'Inter', sans-serif;
 }
+:root{
+    --color-1:A6036D;
+    --color-2:black;
+    
+}
