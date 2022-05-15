@@ -1,5 +1,10 @@
+body{
+    background: rgb(163,3,104);
+background: linear-gradient(0deg, rgba(163,3,104,1) 0%, rgba(0,0,0,1) 100%);
+}
+
 header {
-    background-color:white;
+    background-color:transparent;
     height: 5rem;
 
     display: flex;
@@ -10,14 +15,14 @@ header {
     padding: 0 1.5rem;
 }
 header a {
-    color:black;
+    color:white;
     font-size: 2rem;
     font-weight: 500;
 }
 
 
 header nav {
-    width: 30rem;
+    width: 45rem;
 
     display: flex;
     flex-direction: row;
@@ -27,4 +32,21 @@ header nav {
 
 header nav img {
     width: 3.5rem;
+}
+
+div img{
+    margin-left: 98rem;
+    margin-top: 21rem;
+}
+.logo{
+display: flex;
+position: absolute;
+top:20rem; 
+margin-left: 35rem;
+} 
+.frase{
+    display: flex;
+    position: absolute;
+    top:60rem; 
+    margin-left: 20rem;
 }
